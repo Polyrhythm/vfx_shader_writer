@@ -1,0 +1,6 @@
+﻿  Automatic MOC for target vfx_shader
+  mocs_compilation.cpp
+  ShaderOutDataModel.cpp
+  main.cpp
+  Generating Code...
+  vfx_shader.vcxproj -> C:\Users\rryanjo\Development\cpp\nodeeditor\build\examples\vfx_shader\Debug\vfx_shader.exe

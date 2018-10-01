@@ -1,0 +1,5 @@
+﻿  Automatic MOC for target vfx_shader
+  mocs_compilation.cpp
+  TextDisplayDataModel.cpp
+  Generating Code...
+  vfx_shader.vcxproj -> C:\Users\rryanjo\Development\cpp\nodeeditor\build\examples\vfx_shader\Release\vfx_shader.exe

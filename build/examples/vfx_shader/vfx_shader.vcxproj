@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CE6EFBC2-2CAA-3737-9FB8-C4A311B93771}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>vfx_shader</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\rryanjo\Development\cpp\nodeeditor\build\examples\vfx_shader\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vfx_shader.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vfx_shader</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\rryanjo\Development\cpp\nodeeditor\build\examples\vfx_shader\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vfx_shader.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vfx_shader</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\rryanjo\Development\cpp\nodeeditor\build\examples\vfx_shader\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vfx_shader.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vfx_shader</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\rryanjo\Development\cpp\nodeeditor\build\examples\vfx_shader\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vfx_shader.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vfx_shader</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\rryanjo\Development\cpp\nodeeditor\build\examples\vfx_shader\vfx_shader_autogen\include_Debug;C:\Users\rryanjo\Development\cpp\nodeeditor\include;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtCore;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\.\mkspecs\win32-msvc2015;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtWidgets;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtGui;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;NODE_EDITOR_SHARED;QT_OPENGL_LIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;NODE_EDITOR_SHARED;QT_OPENGL_LIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\rryanjo\Development\cpp\nodeeditor\build\examples\vfx_shader\vfx_shader_autogen\include_Debug;C:\Users\rryanjo\Development\cpp\nodeeditor\include;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtCore;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\.\mkspecs\win32-msvc2015;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtWidgets;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtGui;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\rryanjo\Development\cpp\nodeeditor\build\examples\vfx_shader\vfx_shader_autogen\include_Debug;C:\Users\rryanjo\Development\cpp\nodeeditor\include;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtCore;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\.\mkspecs\win32-msvc2015;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtWidgets;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtGui;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target vfx_shader</Message>
+      <Command>setlocal
+cd C:\Users\rryanjo\Development\cpp\nodeeditor\build\examples\vfx_shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/rryanjo/Development/cpp/nodeeditor/build/examples/vfx_shader/CMakeFiles/vfx_shader_autogen.dir/AutogenInfo.cmake Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\nodes.lib;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\lib\Qt5OpenGLd.lib;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\lib\Qt5Widgetsd.lib;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\lib\Qt5Guid.lib;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\lib\Qt5Cored.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/rryanjo/Development/cpp/nodeeditor/build/examples/vfx_shader/Debug/vfx_shader.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/rryanjo/Development/cpp/nodeeditor/build/examples/vfx_shader/Debug/vfx_shader.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\rryanjo\Development\cpp\nodeeditor\build\examples\vfx_shader\vfx_shader_autogen\include_Release;C:\Users\rryanjo\Development\cpp\nodeeditor\include;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtCore;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\.\mkspecs\win32-msvc2015;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtWidgets;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtGui;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;NODE_EDITOR_SHARED;QT_NO_DEBUG;QT_OPENGL_LIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;NODE_EDITOR_SHARED;QT_NO_DEBUG;QT_OPENGL_LIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\rryanjo\Development\cpp\nodeeditor\build\examples\vfx_shader\vfx_shader_autogen\include_Release;C:\Users\rryanjo\Development\cpp\nodeeditor\include;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtCore;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\.\mkspecs\win32-msvc2015;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtWidgets;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtGui;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\rryanjo\Development\cpp\nodeeditor\build\examples\vfx_shader\vfx_shader_autogen\include_Release;C:\Users\rryanjo\Development\cpp\nodeeditor\include;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtCore;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\.\mkspecs\win32-msvc2015;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtWidgets;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtGui;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target vfx_shader</Message>
+      <Command>setlocal
+cd C:\Users\rryanjo\Development\cpp\nodeeditor\build\examples\vfx_shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/rryanjo/Development/cpp/nodeeditor/build/examples/vfx_shader/CMakeFiles/vfx_shader_autogen.dir/AutogenInfo.cmake Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\nodes.lib;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\lib\Qt5OpenGL.lib;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\lib\Qt5Widgets.lib;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\lib\Qt5Gui.lib;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/rryanjo/Development/cpp/nodeeditor/build/examples/vfx_shader/Release/vfx_shader.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/rryanjo/Development/cpp/nodeeditor/build/examples/vfx_shader/Release/vfx_shader.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\rryanjo\Development\cpp\nodeeditor\build\examples\vfx_shader\vfx_shader_autogen\include_MinSizeRel;C:\Users\rryanjo\Development\cpp\nodeeditor\include;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtCore;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\.\mkspecs\win32-msvc2015;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtWidgets;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtGui;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;NODE_EDITOR_SHARED;QT_NO_DEBUG;QT_OPENGL_LIB;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;NODE_EDITOR_SHARED;QT_NO_DEBUG;QT_OPENGL_LIB;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\rryanjo\Development\cpp\nodeeditor\build\examples\vfx_shader\vfx_shader_autogen\include_MinSizeRel;C:\Users\rryanjo\Development\cpp\nodeeditor\include;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtCore;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\.\mkspecs\win32-msvc2015;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtWidgets;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtGui;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\rryanjo\Development\cpp\nodeeditor\build\examples\vfx_shader\vfx_shader_autogen\include_MinSizeRel;C:\Users\rryanjo\Development\cpp\nodeeditor\include;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtCore;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\.\mkspecs\win32-msvc2015;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtWidgets;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtGui;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target vfx_shader</Message>
+      <Command>setlocal
+cd C:\Users\rryanjo\Development\cpp\nodeeditor\build\examples\vfx_shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/rryanjo/Development/cpp/nodeeditor/build/examples/vfx_shader/CMakeFiles/vfx_shader_autogen.dir/AutogenInfo.cmake MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\lib\MinSizeRel\nodes.lib;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\lib\Qt5OpenGL.lib;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\lib\Qt5Widgets.lib;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\lib\Qt5Gui.lib;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/rryanjo/Development/cpp/nodeeditor/build/examples/vfx_shader/MinSizeRel/vfx_shader.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/rryanjo/Development/cpp/nodeeditor/build/examples/vfx_shader/MinSizeRel/vfx_shader.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\rryanjo\Development\cpp\nodeeditor\build\examples\vfx_shader\vfx_shader_autogen\include_RelWithDebInfo;C:\Users\rryanjo\Development\cpp\nodeeditor\include;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtCore;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\.\mkspecs\win32-msvc2015;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtWidgets;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtGui;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;NODE_EDITOR_SHARED;QT_NO_DEBUG;QT_OPENGL_LIB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;NODE_EDITOR_SHARED;QT_NO_DEBUG;QT_OPENGL_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\rryanjo\Development\cpp\nodeeditor\build\examples\vfx_shader\vfx_shader_autogen\include_RelWithDebInfo;C:\Users\rryanjo\Development\cpp\nodeeditor\include;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtCore;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\.\mkspecs\win32-msvc2015;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtWidgets;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtGui;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\rryanjo\Development\cpp\nodeeditor\build\examples\vfx_shader\vfx_shader_autogen\include_RelWithDebInfo;C:\Users\rryanjo\Development\cpp\nodeeditor\include;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtCore;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\.\mkspecs\win32-msvc2015;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtWidgets;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtGui;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target vfx_shader</Message>
+      <Command>setlocal
+cd C:\Users\rryanjo\Development\cpp\nodeeditor\build\examples\vfx_shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/rryanjo/Development/cpp/nodeeditor/build/examples/vfx_shader/CMakeFiles/vfx_shader_autogen.dir/AutogenInfo.cmake RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\lib\RelWithDebInfo\nodes.lib;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\lib\Qt5OpenGL.lib;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\lib\Qt5Widgets.lib;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\lib\Qt5Gui.lib;D:\lyengine\3rdParty\Qt\5.6.2.6-az\msvc2015_64\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/rryanjo/Development/cpp/nodeeditor/build/examples/vfx_shader/RelWithDebInfo/vfx_shader.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/rryanjo/Development/cpp/nodeeditor/build/examples/vfx_shader/RelWithDebInfo/vfx_shader.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\rryanjo\Development\cpp\nodeeditor\examples\vfx_shader\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/rryanjo/Development/cpp/nodeeditor/examples/vfx_shader/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/rryanjo/Development/cpp/nodeeditor -BC:/Users/rryanjo/Development/cpp/nodeeditor/build --check-stamp-file C:/Users/rryanjo/Development/cpp/nodeeditor/build/examples/vfx_shader/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/rryanjo/Development/cpp/nodeeditor/examples/vfx_shader/CMakeLists.txt;C:\Users\rryanjo\Development\cpp\nodeeditor\examples\vfx_shader\CMakeLists.txt;C:\Users\rryanjo\Development\cpp\nodeeditor\examples\vfx_shader\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\rryanjo\Development\cpp\nodeeditor\build\examples\vfx_shader\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/rryanjo/Development/cpp/nodeeditor/examples/vfx_shader/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/rryanjo/Development/cpp/nodeeditor -BC:/Users/rryanjo/Development/cpp/nodeeditor/build --check-stamp-file C:/Users/rryanjo/Development/cpp/nodeeditor/build/examples/vfx_shader/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/rryanjo/Development/cpp/nodeeditor/examples/vfx_shader/CMakeLists.txt;C:\Users\rryanjo\Development\cpp\nodeeditor\examples\vfx_shader\CMakeLists.txt;C:\Users\rryanjo\Development\cpp\nodeeditor\examples\vfx_shader\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\rryanjo\Development\cpp\nodeeditor\build\examples\vfx_shader\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/rryanjo/Development/cpp/nodeeditor/examples/vfx_shader/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/rryanjo/Development/cpp/nodeeditor -BC:/Users/rryanjo/Development/cpp/nodeeditor/build --check-stamp-file C:/Users/rryanjo/Development/cpp/nodeeditor/build/examples/vfx_shader/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/rryanjo/Development/cpp/nodeeditor/examples/vfx_shader/CMakeLists.txt;C:\Users\rryanjo\Development\cpp\nodeeditor\examples\vfx_shader\CMakeLists.txt;C:\Users\rryanjo\Development\cpp\nodeeditor\examples\vfx_shader\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\rryanjo\Development\cpp\nodeeditor\build\examples\vfx_shader\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/rryanjo/Development/cpp/nodeeditor/examples/vfx_shader/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/rryanjo/Development/cpp/nodeeditor -BC:/Users/rryanjo/Development/cpp/nodeeditor/build --check-stamp-file C:/Users/rryanjo/Development/cpp/nodeeditor/build/examples/vfx_shader/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/rryanjo/Development/cpp/nodeeditor/examples/vfx_shader/CMakeLists.txt;C:\Users\rryanjo\Development\cpp\nodeeditor\examples\vfx_shader\CMakeLists.txt;C:\Users\rryanjo\Development\cpp\nodeeditor\examples\vfx_shader\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\rryanjo\Development\cpp\nodeeditor\build\examples\vfx_shader\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\rryanjo\Development\cpp\nodeeditor\examples\vfx_shader\Float4Data.h" />
+    <ClCompile Include="C:\Users\rryanjo\Development\cpp\nodeeditor\examples\vfx_shader\Float4SourceDataModel.cpp" />
+    <ClInclude Include="C:\Users\rryanjo\Development\cpp\nodeeditor\examples\vfx_shader\Float4SourceDataModel.h" />
+    <ClInclude Include="C:\Users\rryanjo\Development\cpp\nodeeditor\examples\vfx_shader\FloatData.h" />
+    <ClCompile Include="C:\Users\rryanjo\Development\cpp\nodeeditor\examples\vfx_shader\FloatSourceDataModel.cpp" />
+    <ClInclude Include="C:\Users\rryanjo\Development\cpp\nodeeditor\examples\vfx_shader\FloatSourceDataModel.h" />
+    <ClCompile Include="C:\Users\rryanjo\Development\cpp\nodeeditor\examples\vfx_shader\ShaderOutDataModel.cpp" />
+    <ClInclude Include="C:\Users\rryanjo\Development\cpp\nodeeditor\examples\vfx_shader\ShaderOutDataModel.h" />
+    <ClInclude Include="C:\Users\rryanjo\Development\cpp\nodeeditor\examples\vfx_shader\TextData.h" />
+    <ClCompile Include="C:\Users\rryanjo\Development\cpp\nodeeditor\examples\vfx_shader\TextDisplayDataModel.cpp" />
+    <ClInclude Include="C:\Users\rryanjo\Development\cpp\nodeeditor\examples\vfx_shader\TextDisplayDataModel.h" />
+    <ClCompile Include="C:\Users\rryanjo\Development\cpp\nodeeditor\examples\vfx_shader\TextSourceDataModel.cpp" />
+    <ClInclude Include="C:\Users\rryanjo\Development\cpp\nodeeditor\examples\vfx_shader\TextSourceDataModel.h" />
+    <ClCompile Include="C:\Users\rryanjo\Development\cpp\nodeeditor\examples\vfx_shader\main.cpp" />
+    <ClCompile Include="C:\Users\rryanjo\Development\cpp\nodeeditor\build\examples\vfx_shader\vfx_shader_autogen\mocs_compilation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\rryanjo\Development\cpp\nodeeditor\build\ZERO_CHECK.vcxproj">
+      <Project>{38429F62-13F0-3B3A-B043-193937472E20}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\rryanjo\Development\cpp\nodeeditor\build\nodes.vcxproj">
+      <Project>{E80AC0EB-1573-322F-BFD3-C72866DF4E77}</Project>
+      <Name>nodes</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
